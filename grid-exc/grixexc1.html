@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grid exc 1</title>
+    <style>
+        body {
+
+            margin: 0
+        }
+
+        .min {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 100vh;
+
+        }
+
+        .min div:first-child {
+
+            background: aqua
+        }
+
+        .min div:nth-child(2) {
+            background:yellow
+        }
+
+
+        .min div:nth-child(3) {
+            background:lightgray
+        }
+
+
+        .min div:nth-child(4) {
+            background:lightblue
+        }
+    </style>
+</head>
+
+<body>
+    <div class="min">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>
