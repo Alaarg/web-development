@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex exc 1</title>
+
+<style>
+.min_box{
+    display: flex;
+}
+.col_box{
+    height: 200px;
+    flex: 4;
+color:#fff
+}
+.col_box:first-child{
+    background-color: green
+}
+
+.col_box:nth-child(2){
+    background-color: gray
+}
+
+
+.col_box:nth-child(3){
+    background-color: orange
+}
+
+
+.col_box:nth-child(4){
+    background-color: red
+}
+
+</style>
+</head>
+<body>
+    <div class="min_box">
+        <div class="col_box"> im a flexbox 1 </div>
+        <div class="col_box"> im a flexbox 2 </div>
+        <div class="col_box"> im a flexbox 3 </div>
+        <div class="col_box"> im a flexbox 4 </div>
+    </div>
+
+    
+</body>
+</html>
